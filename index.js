@@ -61,8 +61,8 @@ app.get('/getsignupdet',async(request,res)=>{
 //update user details
 app.post("/updatedet", async (req, res) => {
     var updateRec = await Signup.findOneAndUpdate(
-      { username: "Malini" },
-      { $set: { username: "malini03" } }
+      { username: "kaarthika140905" },
+      { $set: { username: "kaarthika14092005" } }
     );
     console.log(updateRec);
      updateRec.save();
